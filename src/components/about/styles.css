@@ -1,0 +1,90 @@
+.about {
+  background: var(--blue-800);
+  margin-top: 75px;
+  padding-top: 75px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.about h2 {
+  color: white !important;
+}
+
+.about h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.abt-img {
+  width: 360px;
+  margin-top: 16px;
+  height: 360px;	
+  margin-bottom: 23px;
+}
+
+.about p {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+}
+
+.about>div {
+  position: relative;
+  /* border: 1; */
+  max-width: 100vw;
+}
+
+.about>div>div {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.about>div>div>div:nth-child(2) {
+  width: 50.2894%;
+}
+
+.about button {
+  padding: 8px 30px;
+  font-size: 1.05rem;
+  margin-top: 50px;
+  background: transparent;
+  color: white;
+  border-radius: 2px;
+  border: 2px solid white;
+  text-transform: capitalize;
+  margin-right: 30px;
+}
+
+.about button:nth-child(2) {
+  background: var(--yellow-900);
+  border: 2px solid var(--yellow-900);
+  border-radius: 2px;
+  color: black;
+  margin-bottom: 60px;
+}
+
+.about>div>img {
+  width: 53.4729px;
+  height: 67.187px;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+}
+
+.about>div {
+  height: fit-content;
+  /* border: 4px solid black; */
+  /* padding: 0 1rem; */
+  position: relative;
+}
+
+
+.bt-line {
+  bottom: 0;
+  right: 70px;
+}
+
+.top-line {
+  top: 0; 
+  left: 30px;
+}

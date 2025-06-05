@@ -1,0 +1,133 @@
+.gallery-pg {
+  /* background: var(--blue-600); */
+  background: hsla(259, 94%, 13%, 1);
+  padding-top: 23px;
+  min-height: 100vh;
+  color: white;
+}
+
+.gallery-pg .gallery-heading {
+  display: flex;
+  margin-top: 100px;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.gallery-pg .gallery-heading>h1 {
+  font-size: 6.25rem;
+  font-family: "Covered By Your Grace", cursive;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+}
+
+.gallery-pg .gallery-heading>img.gallery-img {
+  width: 53.4729px;
+  height: 67.187px;
+}
+
+.str-hor-line {
+  background: hsla(0, 0%, 100%, 1);
+  height: 1px;
+  width: 90.625vw;
+  margin-inline: auto;
+  margin-bottom: 59px;
+}
+
+.gallery-pg p.gallery-p {
+  width: 78.7616vw;
+  text-align: center;
+  font-size: 1.35rem;
+  margin-inline: auto;
+}
+
+.photo-gallery-display {
+  display: flex;
+  width: 94.0394%;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  gap: 12px;
+}
+
+.photo-gallery-display .photo {
+  width: 24.1231%;
+  height: 356px;
+}
+
+.photo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-display {
+  margin-top: 59px;
+}
+
+.gallery-pg button.cta-more-photos {
+  background: var(--yellow-900);
+  border: 2px solid var(--yellow-900);
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  display: block;
+  margin-top: 39px;
+  margin-inline: auto;
+  margin-bottom: 95px;
+  border-radius: 2px;
+}
+
+.gallery-pg h2 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.video-thumbnail .yt-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 102.93px;
+  height: 70.21px;
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 32.3077%;
+  height: 356px;
+}
+
+.video-thumbnail .thumbnail {
+  width: 100%;
+  object-fit: cover;
+}
+
+.vid-preview {
+  display: flex;
+  width: 94.0394vw;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 15px;
+  margin-bottom: 37px;
+}
+
+.copyright-footer {
+  background: white;
+  color: black;
+}
+
+.logo {
+  width: 65px;
+  height: 56px;
+}
+
+.gallery-pg .footer-left-col {
+  margin-right: 200px;
+}
+
+.right-footer-col>img {
+  width: 406.9025px;
+  margin-left: -40px;
+}

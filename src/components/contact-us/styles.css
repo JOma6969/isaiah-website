@@ -1,0 +1,90 @@
+.contact-us {
+  color: white;
+  position: relative;
+  padding-top: 75px;
+  background-color: var(--black-900);
+  overflow: hidden;
+  min-height: 100vh; /* Ensure enough height for bg */
+  padding-bottom: 90px;
+}
+
+.contact-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("../../images/events1.png") center/cover no-repeat;
+  opacity: 0.06;
+  /* z-index: -1; */
+}
+
+.contact-us h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.contact-us input {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  padding: 10px 25px;
+  font-size: 1.125rem;
+  outline: none;
+}
+
+.inp-container {
+  width: 58.1597vw;
+  margin-top: 80px;
+  margin-inline: auto;
+}
+
+.email {
+  display: block;
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+textarea {
+  padding: 15px 25px;
+  font-size: 1.125rem;
+  border-radius: 0;
+  outline: none;
+  resize: none;
+  color: white;
+  width: 100%;
+  height: 220px;
+  border: 2px solid white;
+  background: transparent;
+}
+
+::placeholder {
+  color: white;
+}
+
+.first-name,
+.last-name {
+  width: 47.8607%;
+}
+
+.inp-name-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.contact-us button {
+  background: var(--yellow-900);
+  border: 2px solid var(--yellow-900);
+  padding: 8px 30px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-inline: auto;
+  display: block;
+  margin-top: 59px;
+  border-radius: 2px;
+}

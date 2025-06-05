@@ -1,0 +1,48 @@
+/* TODO: UPDATE THE FONT FAMILY */
+
+@font-face {
+  font-family: segoescript;
+  src: url("./segoescript.ttf");
+  /* font-weight: 900; */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html  {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header *,
+.custom {
+  font-family: segoescript;
+}
+
+span {
+  font-family: inherit;
+}
+
+
+:root {
+  --yellow-900: hsla(47, 90%, 50%, 1);
+  --white-700: hsla(0, 0%, 100%, 0.7);
+  --white-900: hsla(0, 0%, 100%, 1);
+  --blue-900: hsla(259, 33%, 12%, 1);
+  --blue-850: rgba(26, 20, 40, 1);
+  --blue-800: hsla(259, 93%, 13%, 1);
+  --blue-600: hsla(263, 64%, 41%, 1);
+  --black-900: hsla(240, 5%, 8%, 1);
+}

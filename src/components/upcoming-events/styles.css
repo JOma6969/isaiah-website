@@ -1,0 +1,101 @@
+.upcoming-events {
+  background: var(--blue-850);
+  padding-bottom: 50px;
+  position: relative;
+  padding-top: 60px;
+}
+
+.upcoming-events>div {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 92px;
+}
+
+.upcoming-events>img {
+  position: absolute;
+  /* z-index: -1; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  opacity: 6%;
+  height: 100%;
+}
+
+.upcoming-events h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.event-instance>img {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.upcoming-events>div>div {
+  width: 84.5486vw;
+  display: flex;
+  gap: 60px;
+  color: white;
+}
+
+.event-instance>h4 {
+  margin-bottom: 36px;
+  font-weight: 600;
+}
+
+.event-instance:nth-child(1)>h4,
+.event-instance:nth-child(3)>h4 {
+  margin-bottom: 16px;
+}
+
+.location,
+.time {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.location {
+  margin-bottom: 13px;
+}
+
+.more-info>div>img {
+  width: 24px;
+  height: 24px;
+}
+
+.more-info {
+  margin-top: 25px;
+}
+
+.cta-attend-btn {
+  background: var(--yellow-900);
+  border: 0;
+  padding: 8px 30px;
+  margin-top: 28px;
+  border-radius: 2px;
+  font-size: 1.05rem;
+}
+
+.greater-than,
+.less-than {
+  width: 50.7317px;
+  height: 52px;
+  margin-top: 203px;
+}
+
+.cta-book-btn {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  padding: 7px 20px;
+  font-size: 1.05rem;
+  display: block;
+  margin-inline: auto;
+  border-radius: 2px;
+  margin-top: 60px;
+}

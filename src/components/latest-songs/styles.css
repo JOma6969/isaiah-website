@@ -1,0 +1,42 @@
+.latest-songs {
+  background: var(--blue-800);
+  color: white;
+  padding-top: 55px;
+}
+
+.latest-songs h2 {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.songs-container >div {
+  width: 15.789%;
+  /* border: 1px solid green; */
+  text-align: center;
+}
+
+.latest-songs div>img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.special {
+  color: var(--yellow-900);
+  text-decoration: underline;
+  margin-top: 11px;
+  margin-bottom: 50px;
+}
+
+.songs-container {
+  width: 87.963vw;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  padding-bottom: 60px;
+}
+
