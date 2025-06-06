@@ -1,0 +1,66 @@
+.events-pg .hero-section {
+  position: relative;
+  height: 110vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding-top: 23px;
+  color: white;
+}
+
+.hero-section .hero-bg {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* padding-left: 40px; */
+  /* opacity: 30%; */
+  object-fit: cover;
+}
+
+.play-btn {
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.events-pg h1 {
+  width: 37.6157vw;
+  font-size: 3.125rem;
+  margin-top: 90px;
+  margin-left: 40px;
+}
+
+.events-pg .location>img.events-pg,
+.events-pg .time>img.events-pg {
+  width: 36.55px;
+}
+
+.location {
+  margin-top: 39px;
+}
+
+.location.events-pg,
+.time.events-pg {
+  margin-left: 40px;
+}
+
+.events-pg .location>p.event-pg,
+.events-pg .time>p.event-pg {
+  font-size: 1.5rem;
+}
+
+.hero-section button {
+  background: var(--yellow-900);
+  border: 2px solid var(--yellow-900);
+  font-size: 1.125rem;
+  margin-top: 50px;
+  border-radius: 2px;
+  margin-left: 40px;
+  /* padding: 8px 20px; */
+  width: 165px;
+  height: 43px;
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../header";
 import lines from "../../images/three-lines.png";
 import photo1 from "../../images/gallery-img1.png";
